@@ -23,7 +23,7 @@ class Calculator {
   }
 
   chooseOperation(operation) {
-    if (this.currentOperand === '') {
+    if (this.currentOperand === '' || this.currentOperand === '.') {
       return;
     }
     if (this.previousOperand !== '') {
@@ -73,7 +73,9 @@ class Calculator {
     if (decimalPart == undefined) {
       return integerDisplay ;
     }
-    return `${integerDisplay}.${decimalPart}` ;
+    let decimalDisplay = parseInt(decimalPart) ;
+    decimalDisplay = Math.round(decimalDisplay * 100) / 100 ;
+    return `${integerDisplay}.${decimalDisplay}` ;
   }
 
   updateScreen() {
@@ -85,6 +87,9 @@ class Calculator {
     }
   }
 
+  clearCurrent() {
+    this.currentOperand = '' ;
+  }
 }
 
 const numberButtons = document.querySelectorAll('[data-number]') ;
@@ -92,6 +97,7 @@ const operationButtons = document.querySelectorAll('[data-operation]') ;
 const equalsButton = document.querySelector('[data-equals]') ;
 const deleteButton = document.querySelector('[data-delete]') ;
 const allClearButton = document.querySelector('[data-all-clear]') ;
+const clearButton = document.querySelector('[data-clear]') ;
 const previousOperandTextElement = document.querySelector('[data-previous-operand]') ;
 const currentOperandTextElement = document.querySelector('[data-current-operand]') ;
 
@@ -123,7 +129,19 @@ allClearButton.addEventListener('click', button => {
   calculator.updateScreen() ;
 })
 
+clearButton.addEventListener('click', button => {
+  calculator.clearCurrent() ;
+  calculator.updateScreen() ;
+})
+
 deleteButton.addEventListener('click', button => {
   calculator.delete() ;
   calculator.updateScreen() ;
+})
+
+const changeButton = document.getElementsByClassName("change")[0] ;
+
+changeButton.addEventListener('click', () => {
+  window.close() ;
+  window.open(changeButton.value) ;
 })

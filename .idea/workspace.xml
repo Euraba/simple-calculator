@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dddb89c-f276-4abe-a9a6-aefa4f05a585" name="Default Changelist" comment="">
+    <list default="true" id="4dddb89c-f276-4abe-a9a6-aefa4f05a585" name="Default Changelist" comment="Updated for binary calculator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sites/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,8 +106,23 @@
       <workItem from="1617521102367" duration="93000" />
       <workItem from="1617543997282" duration="869000" />
       <workItem from="1617558961517" duration="168000" />
-      <workItem from="1617654180331" duration="4287000" />
+      <workItem from="1617654180331" duration="4523000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated for binary">
+      <created>1617658924409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617658924409</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated for binary calculator">
+      <created>1617658993005</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617658993005</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +138,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated for binary" />
+    <MESSAGE value="Updated for binary calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated for binary calculator" />
   </component>
   <component name="WindowStateProjectService">
     <state x="629" y="307" key="#Web_Browsers" timestamp="1617301916639">
@@ -228,6 +245,14 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="620" y="262" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1617303986997" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1617659115974">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1617659115974" />
+    <state x="641" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617658956245">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="641" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1617658956245" />
     <state x="279" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1617296314770">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
